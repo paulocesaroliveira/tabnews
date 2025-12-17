@@ -24,7 +24,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -35,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/paulocesaroliveira/tabnews/issues"
   },
-  "homepage": "https://github.com/paulocesaroliveira/tabnews#readme"
+  "homepage": "https://github.com/paulocesaroliveira/tabnews#readme",
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  }
 }
