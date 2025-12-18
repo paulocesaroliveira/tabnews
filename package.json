@@ -25,7 +25,9 @@
     "build": "next build",
     "start": "next start",
     "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -38,6 +40,7 @@
   },
   "homepage": "https://github.com/paulocesaroliveira/tabnews#readme",
   "devDependencies": {
+    "jest": "^29.6.2",
     "prettier": "^3.7.4"
   }
 }
